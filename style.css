@@ -9,6 +9,13 @@ body {
     font-size: 18px;
 }
 
+.clear-fix:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
 h1, h2 {
     color: #0c722e;
 }
@@ -30,4 +37,25 @@ h2 {
 
 .author-text {
     font-size: 22px;
+}
+
+.container {
+    width: 1140px;
+    margin: 30px auto 0 auto;
+}
+
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 40px;
+}
+
+.other-posts {
+    width: 25%;
+    float: left;
+}
+
+.author-box {
+    padding-top: 20px;
+    border-top: 1px solid #8f8f8f;
 }
